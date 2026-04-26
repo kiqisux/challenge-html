@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    background: #4da6b3;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: #999;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #777;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.biodata {
+    flex: 1;
+    background: turquoise;
+    width: 100%;
+    max-width: #a8d5d8;
+    padding: 15;
+    text-align: justify;
+}
+
+.biodata img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.pengalaman {
+    flex: 2;
+    background: #ddd;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.footer {
+    background: #999;
+    text-align: center;
+    padding: 10px;
+}
